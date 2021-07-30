@@ -29,7 +29,7 @@ Caso não tenha um servidor postgres, instale o Docker:
   #Ubuntu
   $ sudo docker pull postgres
 
-  $ sudo docker run --name postgres -p 5432:5432 -e     POSTGRES_PASSWORD=postgres -d postgres
+  $ sudo docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
 
 
   #Caso ja tenho um servidor postgres basta iniciar ele
